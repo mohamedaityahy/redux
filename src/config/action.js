@@ -1,9 +1,9 @@
-export const update =(newUser) =>{
-    return {type:'update', payload:newUser}
+export const add = (newUser) =>{
+    return { type: 'add' , payload:newUser }
 }
-export const add =(newUser) =>{
-    return {type:'add', payload:newUser}
+export const edit = (editUser) =>{
+    return { type: 'edit' , payload:editUser }
 }
-export const del =(id) =>{
-    return {type:'delete', payload:id}
+export const delet = (id) =>{
+    return { type: 'delet' , payload:id }
 }
